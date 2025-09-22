@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+
+    <title>Multiple Sidebars Page</title>
+</head>
+<script>
+    window.onload = () => {
+        document.querySelector(".container").classList.add("load")
+    }
+</script>
+
+<body>
+    <div class="container">
+        <!--Start  aside-left -->
+        <aside class="aside-left">
+            <!-- search Box -->
+            <div class="search-box">
+                <input type="search" placeholder="Search" class="input-style">
+                <button class="btn"> search</button>
+            </div>
+            <!-- members-section -->
+            <section class="members-section set-section ">
+                <h3 class="section-header">member</h3>
+                <div class="member-state">
+                    <span class="state">newest</span>
+                    <span class="state">Active</span>
+                    <span class="state">popular</span>
+                </div>
+                <div class="members-about">
+                    <div class="member">
+                        <img src="avatar/002-man.png" alt="img">
+                        <div class="info">
+                            <h5>moustafa</h5>
+                            <span> 57 friends</span>
+                        </div>
+                    </div>
+                    <div class="member">
+                        <img src="avatar/004-man-1.png" alt="img">
+                        <div class="info">
+                            <h5>ahmed</h5>
+                            <span> 75 friends</span>
+                        </div>
+                    </div>
+                    <div class="member">
+                        <img src="avatar/006-man-2.png" alt="img">
+                        <div class="info">
+                            <h5>taha</h5>
+                            <span> 53 friends</span>
+                        </div>
+                    </div>
+                    <div class="member">
+                        <img src="avatar/001-girl.png" alt="img">
+                        <div class="info">
+                            <h5>mona</h5>
+                            <span> 47 friends</span>
+                        </div>
+                    </div>
+                    <div class="member">
+                        <img src="avatar/010-woman.png" alt="img">
+                        <div class="info">
+                            <h5>nada</h5>
+                            <span> 42 friends</span>
+                        </div>
+                    </div>
+                    <div class="member">
+                        <img src="avatar/001-girl.png" alt="img">
+                        <div class="info">
+                            <h5>aya</h5>
+                            <span> 25 friends</span>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+            <!-- section Groups -->
+            <section class="Groups-section set-section  ">
+                <h3 class="section-header">member</h3>
+                <div class="groups-state">
+                    <span class="state">newest</span>
+                    <span class="state">Active</span>
+                    <span class="state">popular</span>
+                </div>
+                <div class="groups-about">
+                    <div class="group">
+                        <img src="avatar/002-man.png" alt="img">
+                        <div class="info">
+                            <h5>the tourist</h5>
+                            <span> active 3 years , 8monts ago</span>
+                        </div>
+                    </div>
+                    <div class="group">
+                        <img src="avatar/009-boy-2.png" alt="img">
+                        <div class="info">
+                            <h5>the tourist</h5>
+                            <span> active 3 years , 8monts ago</span>
+                        </div>
+                    </div>
+                    <div class="group">
+                        <img src="avatar/007-hacker.png" alt="img">
+                        <div class="info">
+                            <h5>the social network</h5>
+                            <span> active 3 years , 8monts ago</span>
+                        </div>
+                    </div>
+                    <div class="group">
+                        <img src="avatar/008-user.png" alt="img">
+                        <div class="info">
+                            <h5>monsters,inc</h5>
+                            <span> active 8 years , 7 monts ago</span>
+                        </div>
+                    </div>
+                    <div class="group">
+                        <img src="avatar/003-boy.png" alt="img">
+                        <div class="info">
+                            <h5> Elizaabethan</h5>
+                            <span> active 3 years , 8monts ago</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- section recently active members-->
+            <section class="recently-section set-section">
+                <h3 class="section-header">recently Active Members</h3>
+                <div class="actives-members">
+                    <img src="avatar/001-girl.png">
+                    <img src="avatar/002-man.png">
+                    <img src="avatar/003-boy.png">
+                    <img src="avatar/004-man-1.png">
+                    <img src="avatar/005-boy-1.png">
+                    <img src="avatar/006-man-2.png">
+                    <img src="avatar/007-hacker.png">
+                    <img src="avatar/008-user.png">
+                    <img src="avatar/009-boy-2.png">
+                    <img src="avatar/010-woman.png">
+                </div>
+            </section>
+        </aside>
+        <!--End aside-left -->
+        <!--Start main-content-->
+        <main class="main-content">
+            <!-- banner -->
+            <div class="welcome-banner">
+                <img src="imgs/welcom banner.jpg" alt="none">
+                <p>welcome to the community !</p>
+            </div>
+            <!-- Activity -->
+            <section class="last-activity set-section">
+                <h2 class="article-head">last activity
+                    <button class="btn update"> update activity</button>
+                </h2>
+                <article class="activity-box">
+                    <img src="avatar/002-man.png">
+                    <div class="user-activity">
+                        <div class="header">
+                            <span class="username">mohamed</span>
+                            posted an update in the group <span class="network">The Social Network</span>
+                        </div>
+                        <span class="activity-time">
+                            <span class="year">2014</span>,
+                            <span class="month">January</span>
+                        </span>
+                        <p class="actions">
+                            "Efficiently e-enable distinctive alignments through scalable web-readiness.
+
+                        </p>
+                    </div>
+                </article>
+                <article class="activity-box">
+                    <img src="avatar/002-man.png">
+                    <div class="user-activity">
+                        <div class="header">
+                            <span class="username">Adel</span>
+                            posted an update in the group <span class="network">google</span>
+                        </div>
+                        <span class="activity-time">
+                            <span class="year">2025</span>,
+                            <span class="month">February</span>
+                        </span>
+                        <p class="actions">
+                            "Efficiently e-enable distinctive alignments through scalable web-readiness.
+                            Phosphorescently mature
+                        </p>
+                    </div>
+                </article>
+                <article class="activity-box">
+                    <img src="avatar/002-man.png">
+                    <div class="user-activity">
+                        <div class="header">
+                            <span class="username">moustafa Ahmed</span>
+                            posted an update in the group <span class="network">The Social Network</span>
+                        </div>
+                        <span class="activity-time">
+                            <span class="year">2025</span>,
+                            <span class="month">septamber</span>
+                        </span>
+                        <p class="actions">
+                            "Efficiently e-enable distinctive alignments through scalable web-readiness.
+                            Phosphorescently mature resource-leveling
+                            growth strategies for multifunctional best practices"
+                        </p>
+                    </div>
+                </article>
+
+            </section>
+            <!-- features -->
+            <section class="features-section set-section">
+                <h2 class="article-head">the features</h2>
+                <div class="feature">
+                    <div class="box">
+                        <img src="imgs/001.jpg">
+                        <p>Professionally pursue world-class applications</p>
+                    </div>
+                    <div class="box">
+                        <img src="imgs/002.jpg">
+                        <p>Holistically evolve highly efficient</p>
+                    </div>
+                    <div class="box">
+                        <img src="imgs/03.jpg">
+                        <p>Professionally drive ubiquitous technology</p>
+                    </div>
+                    <div class="box">
+                        <img src="imgs/004.jpg">
+                        <p>Uniquely promote resource-leveling platforms</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!--End main-content-->
+        <!--Start  aside-right -->
+        <aside class="aside-right">
+            <!-- section login -->
+            <form class="login-form">
+                <h3 class="section-header">sign in</h3>
+                <input type="text" name="user" placeholder="Userame" class="input-style">
+                <input type="password" name="pass" placeholder="Password" class="input-style">
+                <div class="remember">
+                    <input type="checkbox" checked id="check">
+                    <label for="check">Remember Me</label>
+                </div>
+                <input type="submit" value="sign in" class="btn">
+            </form>
+            <!-- statistics -->
+            <section class="statistics-section set-section">
+                <h3 class="section-header">member</h3>
+                <div class="statistic">
+                    <i class="fas fa-file-alt"></i>
+                    <span>posts <span class="stat-number">24</span></span>
+                </div>
+                <div class="statistic">
+                    <i class="fas fa-comments"></i>
+                    <span>comment <span class="stat-number">61</span></span>
+                </div>
+
+                <div class="statistic">
+                    <i class="fas fa-bolt"></i>
+                    <span>activity <span class="stat-number">50</span></span>
+                </div>
+
+                <div class="statistic">
+                    <i class="fas fa-user-friends"></i>
+                    <span>members <span class="stat-number">20</span></span>
+                </div>
+
+                <div class="statistic">
+                    <i class="fas fa-users"></i>
+                    <span>groups <span class="stat-number">18</span></span>
+                </div>
+
+                <div class="statistic">
+                    <i class="fas fa-comments-dollar"></i>
+                    <span>forums <span class="stat-number">8</span></span>
+                </div>
+
+                <div class="statistic">
+                    <i class="fas fa-list-alt"></i>
+                    <span>topics <span class="stat-number">9</span></span>
+                </div>
+            </section>
+            <!-- who-section -->
+            <section class="who-section set-section">
+                <h3 class="section-header">who's online</h3>
+                <p>there are no users currently online</p>
+            </section>
+            <!-- replies -->
+            <section class="replies-section set-section">
+                <h3 class="section-header"> recent replies</h3>
+                <div class="reply">
+                    uniquely pontification standards compliant
+                    seamlessly integrated scalable solutions <span> 4 years</span>
+                </div>
+                <div class="reply">
+                    holistically optimized cross-platform paradigms
+                    dynamically orchestrated innovative frameworks <span> 5 years</span>
+                </div>
+                <div class="reply">
+                    uniquely pontification standards compliant
+                    <span> 6 years</span>
+                </div>
+            </section>
+
+        </aside>
+        <!--End  aside-right -->
+    </div>
+
+    <script src="Js/main.js"></script>
+</body>
+
+</html>
